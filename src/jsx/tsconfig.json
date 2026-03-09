@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es3",
-    "noLib": true,
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "noLib": false,
+    "skipLibCheck": true,
     "strict": true,
     "types": [
       "./global",
-      "../../node_modules/types-for-adobe/shared/global",
-      "../../node_modules/types-for-adobe/shared/PlugPlugExternalObject"
+      "types-for-adobe/shared/global",
+      "types-for-adobe/shared/PlugPlugExternalObject"
     ]
   },
   "include": ["./**/*"]
